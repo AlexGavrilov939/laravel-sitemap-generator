@@ -1,0 +1,22 @@
+{
+    "name": "alexgavrilov/laravel-sitemap-generator",
+    "description": "Library for generating sitemaps from an array into file formats: xml, csv, json.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Gavrilov",
+            "email": "alexgavrilov939@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sitemap\\": "src/"
+        }
+    }
+}
